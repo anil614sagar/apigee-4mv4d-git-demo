@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<APIProxy revision="1" name="git-demo">
+<APIProxy revision="2" name="git-demo">
     <Basepaths>/v1/git-mock</Basepaths>
     <ConfigurationVersion majorVersion="4" minorVersion="0"/>
-    <CreatedAt>1516696363494</CreatedAt>
+    <CreatedAt>1516696701240</CreatedAt>
     <CreatedBy>anilsr@google.com</CreatedBy>
     <Description></Description>
     <DisplayName>git-demo</DisplayName>
-    <LastModifiedAt>1516696363494</LastModifiedAt>
+    <LastModifiedAt>1516696701240</LastModifiedAt>
     <LastModifiedBy>anilsr@google.com</LastModifiedBy>
-    <Policies/>
+    <Policies>
+        <Policy>Verify-API-Key-1</Policy>
+    </Policies>
     <ProxyEndpoints>
         <ProxyEndpoint>default</ProxyEndpoint>
     </ProxyEndpoints>
